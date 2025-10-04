@@ -1,104 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lucretia - Home</title>
-    <style>
-
-    </style>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="photo/logoputih.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italianno&family=Monsieur+La+Doulaise&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- Navigation -->
     <nav>
-        <a href="#" class="logo">
-            <img src="photo/logoputih.png" alt="">
-        </a>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="./product.html">Products</a></li>
-            <li><a href="#about">About</a></li>
-        </ul>
+      <a href="#" class="logo">
+        <img src="photo/logoputih.png" alt="" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <!-- <h1>Lucretia</h1> -->
+      <div class="hero-carousel">
+        <div class="hero-slide active">
+          <img src="photo/header1.png" alt="Slide 1" />
         </div>
-        <img src="photo/header.png" alt="">
+        <div class="hero-slide">
+          <img src="photo/header2.png" alt="Slide 2" />
+        </div>
+        <div class="hero-slide">
+          <img src="photo/header3.png" alt="Slide 3" />
+        </div>
+      </div>
     </section>
 
     <!-- Collection Section -->
     <section class="collection-section">
-        <h2 class="collection-title">Collection</h2>
-        
-        <div class="product-grid">
-            <div class="product-card">
-                <div class="product-image">
-                    <img src="photo/1.jpg" alt="">
-                    <div class="sweater-placeholder">
-                    </div>
-                </div>
-                <div class="product-info">
-                    <h3 class="product-name">Lucretia Sweater</h3>
-                    <p class="product-description">
-                        Sweater dengan desain minimalis yang nyaman dipakai sehari-hari. 
-                        Material berkualitas tinggi dengan jahitan yang rapi dan detail yang sempurna. 
-                        Cocok untuk berbagai acara casual maupun formal dengan sentuhan elegan yang khas.
-                    </p>
-                    <button class="detail-btn">Detail</button>
-                </div>
-            </div>
+      <h2 class="collection-title">Collection</h2>
 
-            <div class="product-card">
-                <div class="product-image">
-                    <img src="photo/2.jpg" alt="">
-                    <div class="sweater-placeholder">
-                        <span class="sweater-text">Lucretia</span>
-                    </div>
-                </div>
-                <div class="product-info">
-                    <h3 class="product-name">Lucretia Sweater</h3>
-                    <p class="product-description">
-                        Sweater edisi khusus dengan logo Lucretia yang iconic. 
-                        Desain yang unik dan stylish dengan kualitas bahan premium. 
-                        Tersedia dalam berbagai ukuran dengan fit yang sempurna untuk semua tipe tubuh.
-                    </p>
-                    <button class="detail-btn">Detail</button>
-                </div>
-            </div>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-image">
+            <img src="photo/1.jpg" alt="" />
+            <div class="sweater-placeholder"></div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Black Long Sleeve T-Shirt</h3>
+            <p class="product-description">
+              Rp300.000,00
+            </p>
+            <button class="detail-btn">Detail</button>
+          </div>
         </div>
 
-        <!-- About Section -->
-        <div class="about-section">
-            <div class="about-image">
-                <img src="photo/about.png" alt="">
-                <!-- <div class="tote-bag">
+        <div class="product-card">
+          <div class="product-image">
+            <img src="photo/2.jpg" alt="" />
+            <div class="sweater-placeholder">
+              <span class="sweater-text">Lucretia</span>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Black Long Sleeve T-Shirt</h3>
+            <p class="product-description">
+              Rp300.000,00
+            </p>
+            <button class="detail-btn">Detail</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- About Section -->
+      <div class="about-section">
+        <div class="about-image">
+          <!-- <img src="photo/about.png" alt="" /> -->
+          <video width="600" autoplay muted loop>
+            <source src="../IMG_5989.MOV" />
+          </video>
+          <!-- <div class="tote-bag">
                     <span class="tote-text">LUCRETIA</span>
                 </div> -->
-            </div>
-            <div class="about-content">
-                <h2>About Lucretia</h2>
-                <p>
-                    Lucretia adalah brand fashion lokal yang berfokus pada kualitas dan desain minimalis modern. 
-                    Kami percaya bahwa fashion bukan hanya tentang penampilan, tetapi juga tentang kenyamanan dan kepercayaan diri. 
-                    Setiap produk Lucretia dirancang dengan detail yang teliti dan menggunakan bahan berkualitas tinggi untuk memberikan pengalaman terbaik bagi pelanggan kami. 
-                    Dengan filosofi "less is more", kami menghadirkan koleksi yang timeless dan dapat dipakai untuk berbagai kesempatan.
-                </p>
-            </div>
         </div>
+        <div class="about-content">
+          <h2>About Lucretia</h2>
+          <p>
+            Lucretia adalah brand fashion lokal yang berfokus pada kualitas dan
+            desain minimalis modern. Kami percaya bahwa fashion bukan hanya
+            tentang penampilan, tetapi juga tentang kenyamanan dan kepercayaan
+            diri. Setiap produk Lucretia dirancang dengan detail yang teliti dan
+            menggunakan bahan berkualitas tinggi untuk memberikan pengalaman
+            terbaik bagi pelanggan kami. Dengan filosofi "less is more", kami
+            menghadirkan koleksi yang timeless dan dapat dipakai untuk berbagai
+            kesempatan.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="social-icons">
-            <a href="#" class="social-icon">📷</a>
-            <a href="#" class="social-icon">🛍️</a>
-            <a href="#" class="social-icon">🎵</a>
-        </div>
+      <div class="social-icons">
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          class="social-icon"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.tiktok.com/" target="_blank" class="social-icon">
+          <i class="fab fa-tiktok"></i>
+        </a>
+        <a href="https://shopee.co.id/" target="_blank" class="social-icon">
+          <i class="fa-solid fa-bag-shopping"></i>
+        </a>
+      </div>
     </footer>
-</body>
+  </body>
+  <script src="script.js"></script>
 </html>
