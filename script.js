@@ -14,3 +14,12 @@
   }
 
   setInterval(nextSlide, 3000);
+
+  const aboutBtn = document.getElementById('aboutBtn')
+
+  aboutBtn.addEventListener('click', (event) => {
+    event.preventDefault()
+    document.querySelector(".about-content").scrollIntoView({
+    behavior: "smooth"
+  });
+  })
